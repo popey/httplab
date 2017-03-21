@@ -1,4 +1,4 @@
-name: httplab
+name: httplab-test
 version: '0.1.0+git'
 summary: An interactive web server
 description: |
@@ -8,7 +8,7 @@ grade: stable
 confinement: strict
 
 apps:
-  httplab:
+  httplab-test:
     command: httplab
     plugs:
       - network
